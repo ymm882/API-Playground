@@ -103,7 +103,7 @@ Authorization: Bearer ${ADMIN_TOKEN}
 2. hostname 命中 `blockedHosts` 时拒绝
 3. hostname 命中 `extraAllowedHosts` 时允许
 4. hostname 以任意 `allowedDomainSuffixes` 结尾时允许
-5. 其他情况拒绝，并提示 `非多元探索旗下站点，不适用于本网站`
+5. 其他情况拒绝，并提示 `非xx品牌旗下站点，不适用于本网站`
 
 默认配置：
 
